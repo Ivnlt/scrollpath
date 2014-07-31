@@ -3,6 +3,7 @@ body
 	background-color #bab095
 	text-align center
 	padding 20px
+	overflow hidden
 
 .apartado
 	border-style dotted
@@ -24,17 +25,33 @@ h2
 	font-size 0.8em
 	color #38240a
 
+#container > div
+		position absolute
+
 .seccion1
+	top 120px
+	left 160px
 	width 440px
 
 .seccion2
+	top 810px
+	left 820px
 	width 380px
+
 .seccion3
+	top 1800px
+	left 20px
 	width 640px
+
 .seccion4
+	top 2500px
+	left 2020px
 	width 640px
 
 nav 
+	position absolute
+	bottom 4px
+	left 4px
 	width 320px
 	height 50px
 	background-color #333221
@@ -55,7 +72,7 @@ a:hover
 a:active
 	color lightblue
 
-nav li
+nav li a
 	float left
 
 nav a
